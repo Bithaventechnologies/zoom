@@ -1,0 +1,4 @@
+Zoom Demo Installer
+
+This is a harmless placeholder file for the frontend-only Microsoft Store UI simulation.
+No real installer, backend, or Zoom/Microsoft integration is included.
