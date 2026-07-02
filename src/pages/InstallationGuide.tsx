@@ -6,7 +6,7 @@ const InstallationGuide = () => {
   return (
     <div className="min-h-screen bg-[#111111] text-white">
       <InstallationHeader />
-      <main className="mx-auto w-full max-w-[1100px] px-5 py-14 sm:px-8 sm:py-20 lg:py-24">
+      <main className="mx-auto w-full max-w-275 px-5 py-14 sm:px-8 sm:py-20 lg:py-24">
         <section aria-label="Zoom installation steps" className="space-y-8">
           <InstructionCard title="Step 1: Locate the Downloaded File">
             <p>

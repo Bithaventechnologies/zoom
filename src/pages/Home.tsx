@@ -17,11 +17,11 @@ const Home = () => {
 
     const joiningTimer = window.setTimeout(() => {
       setScreen('joining')
-    }, 2000)
+    }, 5000)
 
     const updateTimer = window.setTimeout(() => {
       setScreen('update')
-    }, 4000)
+    }, 7000)
 
     return () => {
       window.clearTimeout(joiningTimer)

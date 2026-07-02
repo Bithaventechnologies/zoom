@@ -25,7 +25,7 @@ const ProductGallery = () => {
             className="min-h-56 overflow-hidden rounded-lg bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_14px_34px_rgba(0,0,0,0.12)]"
             key={item.title}
           >
-            <div className="flex h-36 items-center justify-center bg-gradient-to-br from-[#e8f3ff] via-white to-[#dff7ef] p-5">
+            <div className="flex h-36 items-center justify-center bg-linear-to-br from-[#e8f3ff] via-white to-[#dff7ef] p-5">
               <div className="h-24 w-full rounded-md border border-[#cfd8e3] bg-white shadow-sm">
                 <div className="flex h-8 items-center gap-2 border-b border-[#e5e7eb] px-3">
                   <span className="h-2.5 w-2.5 rounded-full bg-[#e74856]" />

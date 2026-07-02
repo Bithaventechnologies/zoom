@@ -21,7 +21,7 @@ const UpdateScreen = () => {
 
         return prev - 1;
       });
-    }, 1000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [navigate]);
@@ -35,9 +35,9 @@ const UpdateScreen = () => {
           Your Zoom Client is Out of Date
         </h1>
 
-        <p className="mt-8 text-lg text-[#A0A0A0]">
+        {/* <p className="mt-8 text-lg text-[#A0A0A0]">
           Please wait while you're redirected to Microsoft Store...
-        </p>
+        </p> */}
 
         <p className="mt-4 text-lg font-medium text-[#2D8CFF]">
           Please wait while you're redirected to Microsoft Store...

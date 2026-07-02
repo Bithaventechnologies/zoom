@@ -1,11 +1,7 @@
 import InstallButton from './InstallButton'
 import ZoomAppIcon from './ZoomAppIcon'
 
-type ProductSummaryProps = {
-  onInstall: () => void
-}
-
-const ProductSummary = ({ onInstall }: ProductSummaryProps) => {
+const ProductSummary = () => {
   return (
     <section className="grid gap-8 rounded-lg bg-white p-6 shadow-[0_8px_28px_rgba(0,0,0,0.08)] ring-1 ring-black/5 md:grid-cols-[260px_1fr] md:p-10">
       <div className="flex items-center justify-center md:justify-start">
@@ -20,7 +16,7 @@ const ProductSummary = ({ onInstall }: ProductSummaryProps) => {
           Published by Zoom Video Communications, Inc.
         </p>
         <div className="mt-8">
-          <InstallButton onClick={onInstall} />
+          <InstallButton />
         </div>
         <dl className="mt-9 grid w-full max-w-xl grid-cols-3 gap-4 border-t border-[#e6e6e6] pt-6 text-center md:text-left">
           <div>
